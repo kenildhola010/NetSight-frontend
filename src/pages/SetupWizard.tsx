@@ -95,7 +95,7 @@ export function SetupWizard() {
   const [agentScanned, setAgentScanned] = useState(false);
   const [pollCount, setPollCount] = useState(0);
 
-  const serverUrl = "https://netsight-backend-1.onrender.com";
+  const serverUrl = "netsight-backend-production.up.railway.app";
 
   // On mount: check if a key already exists, if not generate one
   useEffect(() => {
