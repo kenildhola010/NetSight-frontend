@@ -95,7 +95,7 @@ export function SetupWizard() {
   const [agentScanned, setAgentScanned] = useState(false);
   const [pollCount, setPollCount] = useState(0);
 
-  const serverUrl = "https://net-sight-tbd4.vercel.app/";
+  const serverUrl = "https://netsight-backend-1.onrender.com";
 
   // On mount: check if a key already exists, if not generate one
   useEffect(() => {
