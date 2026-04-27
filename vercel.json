@@ -1,0 +1,9 @@
+{
+  "name": "netsight-ui",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
